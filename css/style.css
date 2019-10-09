@@ -1,0 +1,104 @@
+body{
+	background-color: rgb(250,250,240) !important;
+}
+.logo{
+	width: 45px;
+	height: 31.75px;
+}
+.info{
+	background-color: #ecf5f0;
+}
+.nav-link span{
+	font-family: SFProDisplay Regular,sans-serif !important;
+    color: #093845;
+    font-size: 15px;
+}
+.nav-item:first-child span{
+	font-weight: bold;
+	padding-top: 23px; 
+	border-top: 5px solid rgb(132, 185, 157);
+}
+.nav-item:hover span{
+	padding-top: 23px; 
+	border-top: 5px solid rgb(132, 185, 157);	
+}
+.myfoto{
+	width: 110px;
+	height: 110px;
+	border-radius: 50%;
+}
+.ism{
+	font-size: 22px;
+}
+.passedit{
+	border-style: none;
+	background-color: rgb(243,250,248);
+	border-radius: 5px;
+	outline: none;
+}
+.passedit span{
+	padding: 10px;
+	font-size: 12px;
+}
+.passedit span::before{
+	content: url('../images/edit-3.png');
+}
+.pul{
+	box-shadow: 0 0 40px rgba(0,0,0,0.2);
+	border-style: none !important;
+	padding: 10px;
+	background-color: rgb(108,190,154) !important;
+	color: white;
+}
+.pul h3{
+	padding-top: 20px;
+	text-align: right;
+}
+.student{
+	border-radius: 50%;
+	width: 40px;
+	height: 40px;
+}
+.guruh{
+	width: 100%;
+	height: 100%;
+	border-style: none !important;
+}
+.meningguruh
+{
+}
+.guruh span{
+	font-size: 14px;
+}
+.guruh h5{
+	font-size: 18px;
+}
+.guruh:hover{
+	background-color: rgb(220,238,228);
+}
+.navbar-toggler-icon
+{
+	color: black !important;
+}
+
+
+
+
+
+@media screen and (max-width: 850px){
+	.navbar-toggler{
+		float: right;
+	}
+	.nav-item:first-child span{ 
+		border-top: none;
+	}
+	.nav-item:hover span{
+		border-top: none;
+	}	
+	.nav-item span{
+		font-size: 12px;
+	}
+	.nav-item .nav-link{
+		padding: 0;
+	}
+}
